@@ -1,0 +1,16 @@
+✅ Save-only mode ON. Outputs folder: C:\Users\DELL\Downloads\Documents\GitHub\hydrogen-storage-capacity-prediction\outputs
+✅ Imports loaded.
+✅ Data loaded: (191, 4) Target: C
+✅ Split done. Train: (152, 3) Test: (39, 3)
+✅ Saved corr heatmap + matrix.
+✅ Helpers ready.
+✅ Models defined: ['DecisionTree', 'AdaBoost', 'GradientBoosting', 'XGBoost', 'CatBoost']
+✅ Finished DecisionTree: R2(test)=0.9896
+✅ Finished AdaBoost: R2(test)=0.9121
+✅ Finished GradientBoosting: R2(test)=0.9918
+✅ Finished XGBoost: R2(test)=0.9795
+✅ Finished CatBoost: R2(test)=0.9928
+✅ Saved metrics + plots + models.
+✅ Optuna best XGB params: {'n_estimators': 1044, 'learning_rate': 0.09798516712925766, 'max_depth': 3, 'subsample': 0.8847154107776427, 'colsample_bytree': 0.7010451800303613, 'reg_lambda': 9.946790900427247}
+✅ Saved SHAP summary: shap_summary_BEST.png
+✅ Saved RUN_REPORT.txt

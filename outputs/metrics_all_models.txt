@@ -1,0 +1,11 @@
+                 model       r2     rmse      mae  mape_percent
+    DecisionTree_train 1.000000 0.000000 0.000000      0.000000
+     DecisionTree_test 0.989615 0.022789 0.019167      8.156148
+        AdaBoost_train 0.950833 0.043800 0.035615     19.117155
+         AdaBoost_test 0.912120 0.066292 0.055422     26.724737
+GradientBoosting_train 0.996852 0.011083 0.008897      4.039957
+ GradientBoosting_test 0.991831 0.020211 0.015894      7.815020
+         XGBoost_train 0.999779 0.002937 0.002393      1.037012
+          XGBoost_test 0.979519 0.032003 0.023672      7.004628
+        CatBoost_train 0.999913 0.001838 0.001487      0.615222
+         CatBoost_test 0.992829 0.018937 0.012721      5.253519

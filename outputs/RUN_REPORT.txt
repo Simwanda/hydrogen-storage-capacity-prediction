@@ -1,0 +1,8 @@
+RUN COMPLETE
+Data file: database.xlsx
+Rows/Cols: (191, 4)
+Target: C
+Numeric cols: 3 | Categorical cols: 0
+Metrics: metrics_all_models.csv
+Best model saved: BEST_pipeline.joblib
+Best model metrics: best_model_metrics.json

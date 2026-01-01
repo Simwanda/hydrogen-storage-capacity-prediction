@@ -1,0 +1,7 @@
+{
+  "DecisionTree": "outputs\\DecisionTree_pipeline.joblib",
+  "AdaBoost": "outputs\\AdaBoost_pipeline.joblib",
+  "GradientBoosting": "outputs\\GradientBoosting_pipeline.joblib",
+  "XGBoost": "outputs\\XGBoost_pipeline.joblib",
+  "CatBoost": "outputs\\CatBoost_pipeline.joblib"
+}
