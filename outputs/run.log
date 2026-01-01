@@ -3,14 +3,30 @@
 ✅ Data loaded: (191, 4) Target: C
 ✅ Split done. Train: (152, 3) Test: (39, 3)
 ✅ Saved corr heatmap + matrix.
-✅ Helpers ready.
 ✅ Models defined: ['DecisionTree', 'AdaBoost', 'GradientBoosting', 'XGBoost', 'CatBoost']
-✅ Finished DecisionTree: R2(test)=0.9896
-✅ Finished AdaBoost: R2(test)=0.9121
-✅ Finished GradientBoosting: R2(test)=0.9918
-✅ Finished XGBoost: R2(test)=0.9795
-✅ Finished CatBoost: R2(test)=0.9928
+✅ DecisionTree done | R2(test)=0.9896
+✅ AdaBoost done | R2(test)=0.9121
+✅ GradientBoosting done | R2(test)=0.9918
+✅ XGBoost done | R2(test)=0.9795
+✅ CatBoost done | R2(test)=0.9928
+✅ Saved parity plot: parity_2x2.png
+✅ Saved metrics figure: metrics_2x2.png
 ✅ Saved metrics + plots + models.
-✅ Optuna best XGB params: {'n_estimators': 1044, 'learning_rate': 0.09798516712925766, 'max_depth': 3, 'subsample': 0.8847154107776427, 'colsample_bytree': 0.7010451800303613, 'reg_lambda': 9.946790900427247}
-✅ Saved SHAP summary: shap_summary_BEST.png
+✅ Optuna best XGB params: {'n_estimators': 1329, 'learning_rate': 0.022118712363757478, 'max_depth': 2, 'subsample': 0.6135306828652443, 'colsample_bytree': 0.9320397034573129, 'reg_lambda': 0.04528775359117055}
+✅ Saved RUN_REPORT.txt
+✅ Saved shap_summary_beeswarm_DecisionTree.png
+✅ Saved shap_mean_bar_DecisionTree.png
+✅ Saved dependence: P vs T
+✅ Saved dependence: T vs P
+✅ Saved dependence: TSU$_{mont-Al}$ vs P
+✅ Saved shap_summary_beeswarm_DecisionTree.png
+✅ Saved shap_mean_bar_DecisionTree.png
+✅ Saved dependence: P vs T
+✅ Saved dependence: T vs P
+✅ Saved dependence: TSU$_{mont-Al}$ vs P
+✅ Saved shap_summary_beeswarm_XGBoost.png
+✅ Saved shap_mean_bar_XGBoost.png
+✅ Saved dependence: P vs T
+✅ Saved dependence: T vs P
+✅ Saved dependence: TSU$_{mont-Al}$ vs P
 ✅ Saved RUN_REPORT.txt
