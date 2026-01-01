@@ -4,6 +4,10 @@
 ✅ Split done. Train: (152, 3) Test: (39, 3)
 ✅ Saved corr heatmap + matrix.
 ✅ Models defined: ['DecisionTree', 'AdaBoost', 'GradientBoosting', 'XGBoost', 'CatBoost']
+⚠️ Tuning skipped for AdaBoost: got an unexpected keyword argument 'squared'
+⚠️ Tuning skipped for GradientBoosting: got an unexpected keyword argument 'squared'
+⚠️ Tuning skipped for XGBoost: got an unexpected keyword argument 'squared'
+⚠️ Tuning skipped for CatBoost: got an unexpected keyword argument 'squared'
 ✅ DecisionTree done | R2(test)=0.9896
 ✅ AdaBoost done | R2(test)=0.9121
 ✅ GradientBoosting done | R2(test)=0.9918
@@ -12,18 +16,28 @@
 ✅ Saved parity plot: parity_2x2.png
 ✅ Saved metrics figure: metrics_2x2.png
 ✅ Saved metrics + plots + models.
-✅ Optuna best XGB params: {'n_estimators': 1329, 'learning_rate': 0.022118712363757478, 'max_depth': 2, 'subsample': 0.6135306828652443, 'colsample_bytree': 0.9320397034573129, 'reg_lambda': 0.04528775359117055}
-✅ Saved RUN_REPORT.txt
-✅ Saved shap_summary_beeswarm_DecisionTree.png
-✅ Saved shap_mean_bar_DecisionTree.png
-✅ Saved dependence: P vs T
-✅ Saved dependence: T vs P
-✅ Saved dependence: TSU$_{mont-Al}$ vs P
-✅ Saved shap_summary_beeswarm_DecisionTree.png
-✅ Saved shap_mean_bar_DecisionTree.png
-✅ Saved dependence: P vs T
-✅ Saved dependence: T vs P
-✅ Saved dependence: TSU$_{mont-Al}$ vs P
+✅ Optuna tuned AdaBoost
+✅ Optuna tuned GradientBoosting
+✅ Optuna tuned XGBoost
+✅ Optuna tuned CatBoost
+✅ DecisionTree done | R2(test)=0.9896
+✅ AdaBoost done | R2(test)=0.9866
+✅ GradientBoosting done | R2(test)=0.9967
+✅ XGBoost done | R2(test)=0.9882
+✅ CatBoost done | R2(test)=0.9966
+✅ Saved metrics figure: metrics_2x2.png
+✅ All models tuned, trained, evaluated, and saved.
+✅ Optuna tuned AdaBoost
+✅ Optuna tuned GradientBoosting
+✅ Optuna tuned XGBoost
+✅ Optuna tuned CatBoost
+✅ DecisionTree done | R2(test)=0.9896
+✅ AdaBoost done | R2(test)=0.9866
+✅ GradientBoosting done | R2(test)=0.9967
+✅ XGBoost done | R2(test)=0.9882
+✅ CatBoost done | R2(test)=0.9966
+✅ Saved metrics figure: metrics_2x2.png
+✅ All models tuned, trained, evaluated, and saved.
 ✅ Saved shap_summary_beeswarm_XGBoost.png
 ✅ Saved shap_mean_bar_XGBoost.png
 ✅ Saved dependence: P vs T

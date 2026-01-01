@@ -1,0 +1,13 @@
+{
+  "model": "CatBoost",
+  "best_cv_rmse": 0.017864700554046178,
+  "best_params": {
+    "iterations": 926,
+    "depth": 4,
+    "learning_rate": 0.03462715238167535,
+    "random_strength": 77,
+    "bagging_temperature": 0.026627008430666305,
+    "l2_leaf_reg": 1.0153054822596477,
+    "border_count": 79
+  }
+}

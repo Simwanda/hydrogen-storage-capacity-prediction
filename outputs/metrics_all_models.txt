@@ -1,11 +1,11 @@
-           model split       r2     rmse      mae      mape
-    DecisionTree train 1.000000 0.000000 0.000000  0.000000
-    DecisionTree  test 0.989615 0.022789 0.019167  8.156148
-        AdaBoost train 0.950833 0.043800 0.035615 19.117155
-        AdaBoost  test 0.912120 0.066292 0.055422 26.724737
-GradientBoosting train 0.996852 0.011083 0.008897  4.039957
-GradientBoosting  test 0.991831 0.020211 0.015894  7.815020
-         XGBoost train 0.999779 0.002937 0.002393  1.037012
-         XGBoost  test 0.979519 0.032003 0.023672  7.004628
-        CatBoost train 0.999913 0.001838 0.001487  0.615222
-        CatBoost  test 0.992829 0.018937 0.012721  5.253519
+           model split       r2     rmse      mae     mape
+    DecisionTree train 1.000000 0.000000 0.000000 0.000000
+    DecisionTree  test 0.989615 0.022789 0.019167 8.156148
+        AdaBoost train 0.995706 0.012944 0.008019 3.700176
+        AdaBoost  test 0.986601 0.025886 0.020921 8.399655
+GradientBoosting train 0.999487 0.004474 0.003690 1.703187
+GradientBoosting  test 0.996677 0.012892 0.009772 3.939701
+         XGBoost train 0.996834 0.011114 0.008219 3.941116
+         XGBoost  test 0.988201 0.024290 0.017171 5.093248
+        CatBoost train 0.999491 0.004455 0.003518 1.656609
+        CatBoost  test 0.996574 0.013090 0.010723 4.304658
